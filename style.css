@@ -1,217 +1,565 @@
-/* ===== TRIO SPECTRUM ===== */
+/* ===================================
+   TRIO SPECTRUM
+   Main stylesheet
+=================================== */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-html{
-    scroll-behavior:smooth;
+
+html {
+    scroll-behavior: smooth;
 }
 
-body{
-    font-family: Georgia, "Times New Roman", serif;
-    background:#f8f8f6;
-    color:#222;
-    line-height:1.8;
+
+body {
+
+    font-family:
+        "Inter",
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+
+    background: #f8f6f1;
+
+    color: #242424;
+
+    line-height: 1.7;
+
 }
 
-/* HEADER */
 
-header{
-    text-align:center;
-    padding:60px 20px;
+/* TYPOGRAPHY */
+
+h1,
+h2,
+h3 {
+
+    font-family:
+        "Cormorant Garamond",
+        Georgia,
+        serif;
+
+    font-weight: 600;
+
 }
 
-header img{
-    width:90%;
-    max-width:850px;
-    border-radius:12px;
-    margin-bottom:40px;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
+h2 {
+
+    font-size: 3rem;
+
+    color:#17365d;
+
+    margin-bottom: 35px;
+
+    position:relative;
+
 }
 
-header h1{
-    font-size:4rem;
-    letter-spacing:3px;
+
+h2::after {
+
+    content:"";
+
+    display:block;
+
+    width:70px;
+
+    height:2px;
+
+    background:#b89b5e;
+
+    margin-top:18px;
+
+}
+
+
+h3 {
+
+    font-size:1.7rem;
+
+    color:#333;
+
     margin-bottom:15px;
+
 }
 
-header p{
-    font-size:1.3rem;
-    color:#666;
-    font-style:italic;
+
+
+p {
+
+    max-width:850px;
+
+    margin-bottom:22px;
+
+    font-size:1.08rem;
+
 }
 
-/* MENU */
 
-nav{
+/* CONTAINER */
 
-    position:sticky;
-    top:0;
+.container {
 
-    background:white;
+    width:min(1150px, 90%);
+
+    margin:auto;
+
+}
+
+
+
+
+
+/* =========================
+   HERO
+========================= */
+
+
+.hero {
+
+    background:
+
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.45)
+    ),
+
+    url("images/images/images/trio-spectrum.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    min-height:90vh;
 
     display:flex;
+
+    flex-direction:column;
+
     justify-content:center;
-    gap:35px;
 
-    padding:18px;
-
-    box-shadow:0 2px 12px rgba(0,0,0,.08);
-
-    z-index:999;
-}
-
-nav a{
-
-    color:#222;
-
-    text-decoration:none;
-
-    font-weight:bold;
-
-    transition:.3s;
+    color:white;
 
 }
 
-nav a:hover{
 
-    color:#0b4f9c;
 
-}
+.hero-content {
 
-/* SEZIONI */
+    text-align:center;
 
-section{
-
-    width:100%;
-    max-width:950px;
-
-    margin:90px auto;
-
-    padding:0 25px;
-
-}
-section ul{
-
-    padding-left:20px;
+    padding-top:80px;
 
 }
 
-section p,
-section ul{
 
-    max-width:900px;
 
-}
-section h3{
+.hero-image {
 
-    font-size:1.3rem;
-    margin-top:40px;
-    margin-bottom:20px;
-
-}
-section h2{
-
-    font-size:2.2rem;
-
-    margin-bottom:30px;
-
-    color:#0b4f9c;
+    display:none;
 
 }
 
-section h3{
 
-    margin-top:35px;
 
-    margin-bottom:15px;
+.hero-title h1 {
 
-    color:#444;
+    font-size:5rem;
 
-}
-
-section p{
-
-    margin-bottom:20px;
-
-    text-align:justify;
-
-}
-
-ul{
-
-    margin-left:30px;
-
-}
-
-li{
+    letter-spacing:4px;
 
     margin-bottom:10px;
 
 }
 
-/* LINK */
 
-a{
 
-    color:#0b4f9c;
+.hero-title p {
+
+    margin:auto;
+
+    font-size:1.5rem;
+
+    font-style:italic;
+
+    color:#eee;
 
 }
 
-a:hover{
+
+
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+
+.navigation {
+
+    position:fixed;
+
+    top:0;
+
+    width:100%;
+
+    z-index:1000;
+
+    background:rgba(255,255,255,.95);
+
+    backdrop-filter:blur(8px);
+
+}
+
+
+
+.navigation ul {
+
+    list-style:none;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:35px;
+
+    padding:18px 0;
+
+}
+
+
+
+.navigation a {
+
+    text-decoration:none;
+
+    color:#222;
+
+    font-weight:600;
+
+    font-size:.95rem;
+
+    transition:.3s;
+
+}
+
+
+.navigation a:hover {
+
+    color:#b18b43;
+
+}
+
+
+
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+
+.section {
+
+    padding:100px 0;
+
+}
+
+
+
+.section:nth-child(even){
+
+    background:#fff;
+
+}
+
+
+
+
+.section p {
+
+    text-align:left;
+
+}
+
+
+
+.section ul {
+
+    padding-left:25px;
+
+}
+
+
+
+.section li {
+
+    margin-bottom:12px;
+
+}
+
+
+
+
+
+/* =========================
+   REPERTORIO CARDS
+========================= */
+
+
+.cards {
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+    margin-top:50px;
+
+}
+
+
+
+.cards article {
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:
+
+    0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+
+
+.cards article:hover {
+
+    transform:translateY(-5px);
+
+}
+
+
+
+
+
+/* =========================
+   AWARDS
+========================= */
+
+
+.awards {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:35px;
+
+}
+
+
+.awards article {
+
+    background:white;
+
+    padding:35px;
+
+    border-left:4px solid #b89b5e;
+
+    box-shadow:
+
+    0 8px 20px rgba(0,0,0,.06);
+
+}
+
+
+
+
+/* =========================
+   CONTACTS
+========================= */
+
+
+.contacts {
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    box-shadow:
+
+    0 10px 30px rgba(0,0,0,.08);
+
+}
+
+
+
+.contacts a {
+
+    color:#17365d;
+
+    text-decoration:none;
+
+}
+
+
+.contacts a:hover {
 
     text-decoration:underline;
 
 }
 
-/* FOOTER */
 
-footer{
 
-    margin-top:100px;
 
-    background:#222;
+
+/* LINKS */
+
+
+a {
+
+    color:#17365d;
+
+}
+
+
+
+
+
+/* =========================
+   FOOTER
+========================= */
+
+
+footer {
+
+    background:#1e1e1e;
 
     color:white;
 
     text-align:center;
 
-    padding:50px 20px;
+    padding:60px 20px;
 
 }
 
-footer p{
 
-    margin:8px;
+footer p {
+
+    margin:10px auto;
 
 }
 
-/* SMARTPHONE */
+
+footer a {
+
+    color:#d6b675;
+
+}
+
+
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
 
 @media(max-width:768px){
 
-header h1{
 
-font-size:2.5rem;
+.navigation ul {
 
-}
+    flex-wrap:wrap;
 
-nav{
+    gap:15px;
 
-flex-wrap:wrap;
-
-gap:15px;
+    padding:15px;
 
 }
 
-section{
 
-margin:60px auto;
+
+.hero {
+
+    min-height:75vh;
 
 }
+
+
+
+.hero-title h1 {
+
+    font-size:3rem;
+
+}
+
+
+
+.hero-title p {
+
+    font-size:1.2rem;
+
+}
+
+
+
+.section {
+
+    padding:65px 0;
+
+}
+
+
+
+h2 {
+
+    font-size:2.2rem;
+
+}
+
+
+
+.cards {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.container {
+
+    width:88%;
+
+}
+
+
+
+p {
+
+    font-size:1rem;
+
+}
+
+
 
 }
