@@ -146,9 +146,13 @@ p {
     ),
     url("images/images/images/trio-spectrum.jpg");
 
-    background-size:cover;
+    background-size:contain;
 
-    background-position:center center;
+    background-repeat:no-repeat;
+
+    background-position:center;
+
+    background-color:#111;
 
 }
 
