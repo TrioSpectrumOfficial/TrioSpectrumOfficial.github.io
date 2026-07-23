@@ -184,9 +184,11 @@ p {
 
     background:
     linear-gradient(
-        rgba(0,0,0,.25),
-        rgba(0,0,0,.55)
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.60)
     );
+
+    z-index:1;
 
 }
 
