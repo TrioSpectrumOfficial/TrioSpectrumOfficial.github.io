@@ -35,3 +35,20 @@ section {
 p {
     font-size: 18px;
 }
+
+nav {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+}
+
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: white;
+}
