@@ -125,6 +125,19 @@ p {
 
 .hero {
 
+    background:
+
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.45)
+    ),
+
+    url("images/images/images/trio-spectrum.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
     min-height:90vh;
 
     display:flex;
@@ -135,24 +148,49 @@ p {
 
     color:white;
 
-    position:relative;
+}
 
-    overflow:hidden;
 
-    background-image:
-    linear-gradient(
-        rgba(0,0,0,.35),
-        rgba(0,0,0,.55)
-    ),
-    url("images/images/images/trio-spectrum.jpg");
 
-    background-size:contain;
+.hero-content {
 
-    background-repeat:no-repeat;
+    text-align:center;
 
-    background-position:center;
+    padding-top:80px;
 
-    background-color:#111;
+}
+
+
+
+.hero-image {
+
+    display:none;
+
+}
+
+
+
+.hero-title h1 {
+
+    font-size:5rem;
+
+    letter-spacing:4px;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.hero-title p {
+
+    margin:auto;
+
+    font-size:1.5rem;
+
+    font-style:italic;
+
+    color:#eee;
 
 }
 
@@ -523,14 +561,5 @@ p {
 }
 
 
-
-}
-@media (min-width:1200px){
-
-.hero {
-
-    background-position:center 35%;
-
-}
 
 }
