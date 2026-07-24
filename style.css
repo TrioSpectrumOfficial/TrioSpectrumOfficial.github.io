@@ -781,3 +781,44 @@ p {
     text-align:center;
 
 }
+/* Layout album desktop */
+
+@media(min-width:769px){
+
+    .album-box {
+
+        display:flex !important;
+        flex-direction:row !important;
+        align-items:center !important;
+        justify-content:flex-start !important;
+        text-align:left !important;
+        gap:50px;
+
+    }
+
+
+    .album-cover {
+
+        margin:0 !important;
+        width:320px;
+
+    }
+
+
+    .album-info {
+
+        text-align:left !important;
+        max-width:600px;
+
+    }
+
+
+    .album-info p {
+
+        text-align:left !important;
+        margin-left:0;
+        margin-right:0;
+
+    }
+
+}
