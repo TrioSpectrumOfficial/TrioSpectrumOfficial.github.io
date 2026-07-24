@@ -1249,41 +1249,47 @@ p {
    ALBUM OLTRE I CONFINI
 ========================= */
 
-.album-box {
+/* =========================
+   OLTRE I CONFINI
+========================= */
 
+.album-box{
     display:flex;
-
-    flex-direction:column;
-
-    align-items:center;
-
-    text-align:center;
-
-    gap:35px;
-
+    align-items:flex-start;
+    gap:60px;
     margin-top:40px;
-
 }
 
-
-.album-cover {
-
+.album-cover{
     width:320px;
-
-    max-width:100%;
-
     height:auto;
-
+    display:block;
     box-shadow:0 15px 35px rgba(0,0,0,.18);
-
 }
 
+.album-text{
+    flex:1;
+}
 
-.album-info {
+.album-text p{
+    max-width:100%;
+}
 
-    max-width:750px;
+@media(max-width:768px){
 
-    text-align:center;
+    .album-box{
+        flex-direction:column;
+        align-items:center;
+        gap:30px;
+    }
+
+    .album-cover{
+        width:260px;
+    }
+
+    .album-text{
+        text-align:left;
+    }
 
 }
 
@@ -1413,53 +1419,42 @@ p {
     }
 
 }
-/* Logo Bugari */
+/* ===========================
+   LOGHI DEFINITIVI
+=========================== */
+
+.partner-logo{
+
+    text-align:center;
+    margin-top:45px;
+
+}
 
 .partner-logo img{
 
-    width:170px;
+    display:block;
+    width:120px;
+    max-width:120px;
     height:auto;
-    object-fit:contain;
+    margin:auto;
 
 }
-/* Copertina disco a sinistra su desktop */
 
-@media (min-width: 769px) {
-
-    .album-box {
-
-        display:flex !important;
-        flex-direction:row !important;
-        align-items:center !important;
-        justify-content:flex-start !important;
-        text-align:left !important;
-        gap:50px !important;
-
-    }
-
-}
-/* Logo finale */
 
 .final-logo{
 
-    padding:40px 0 10px;
     text-align:center;
+    padding:40px 0;
 
 }
 
 .final-logo img{
 
-    width:130px;
-    max-width:100%;
-    height:auto;
     display:block;
+    width:90px;
+    max-width:90px;
+    height:auto;
     margin:auto;
-
-}
-
-.final-logo img:hover{
-
-    transform:scale(1.03);
 
 }
 /* Loghi più piccoli solo su desktop */
