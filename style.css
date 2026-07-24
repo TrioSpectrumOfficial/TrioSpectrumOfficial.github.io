@@ -752,3 +752,24 @@ p {
     max-width: 750px !important;
     text-align: center !important;
 }
+/* Sistemazione definitiva album */
+
+.album-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+.album-cover {
+    display: block !important;
+    margin: 0 auto 35px auto !important;
+}
+
+.album-info {
+    display: block !important;
+    width: 100% !important;
+    max-width: 750px !important;
+    text-align: center !important;
+}
