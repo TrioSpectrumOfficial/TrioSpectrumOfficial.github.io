@@ -1431,13 +1431,8 @@ p {
 }
 
 .partner-logo img{
-
-    display:block;
-    width:120px;
-    max-width:120px;
-    height:auto;
-    margin:auto;
-
+    width:40px !important;
+    border:2px solid red;
 }
 
 
@@ -1449,13 +1444,8 @@ p {
 }
 
 .final-logo img{
-
-    display:block;
-    width:90px;
-    max-width:90px;
-    height:auto;
-    margin:auto;
-
+    width:40px !important;
+    border:2px solid blue;
 }
 /* Loghi più piccoli solo su desktop */
 
