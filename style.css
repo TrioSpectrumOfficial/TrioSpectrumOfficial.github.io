@@ -703,13 +703,9 @@ p {
 }
 
 
-.label-logo img {
-
-    width:120px;
+.label-logo img{
+    width:160px;
     height:auto;
-    object-fit:contain;
-    opacity:0.85;
-
 }
 
 
