@@ -123,25 +123,28 @@ p {
 ========================= */
 
 
-.hero {
+.hero-image {
 
-    min-height:80vh;
+    width:100%;
 
-    display:flex;
+    max-width:1000px;
 
-    align-items:center;
+    margin:0 auto 40px;
 
-    justify-content:center;
+}
 
-    background:
 
-    linear-gradient(
-        135deg,
-        #111,
-        #243447
-    );
+.hero-image img {
 
-    color:white;
+    width:100%;
+
+    height:auto;
+
+    display:block;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
 
 }
 
@@ -151,13 +154,37 @@ p {
     text-align:center;
 
 }
+.hero-image {
+
+    width:100%;
+
+    max-width:1000px;
+
+    margin:0 auto 40px;
+
+}
+
+
+.hero-image img {
+
+    width:100%;
+
+    height:auto;
+
+    display:block;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+}
 
 
 .hero-title h1 {
 
-    font-size:5rem;
+    font-size:4.2rem;
 
-    letter-spacing:5px;
+    letter-spacing:3px;
 
     margin-bottom:20px;
 
