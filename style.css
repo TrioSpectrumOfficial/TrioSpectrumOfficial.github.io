@@ -831,3 +831,19 @@ p {
     object-fit:contain;
 
 }
+/* Copertina disco a sinistra su desktop */
+
+@media (min-width: 769px) {
+
+    .album-box {
+
+        display:flex !important;
+        flex-direction:row !important;
+        align-items:center !important;
+        justify-content:flex-start !important;
+        text-align:left !important;
+        gap:50px !important;
+
+    }
+
+}
