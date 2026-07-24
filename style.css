@@ -658,9 +658,13 @@ p {
 
     display:flex;
 
+    flex-direction:column;
+
     align-items:center;
 
-    gap:50px;
+    text-align:center;
+
+    gap:35px;
 
     margin-top:40px;
 
@@ -682,7 +686,9 @@ p {
 
 .album-info {
 
-    flex:1;
+    max-width:750px;
+
+    text-align:center;
 
 }
 
