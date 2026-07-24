@@ -822,7 +822,7 @@ p {
 
 .partner-logo img{
 
-    width:140px;
+    width:170px;
     height:auto;
     object-fit:contain;
 
@@ -854,10 +854,11 @@ p {
 
 .final-logo img{
 
-    width:180px;
+    width:130px;
+    max-width:100%;
     height:auto;
-    opacity:.95;
-    transition:.3s;
+    display:block;
+    margin:auto;
 
 }
 
