@@ -737,3 +737,18 @@ p {
     width:300px !important;
     height:auto !important;
 }
+   /* Correzione definitiva layout album */
+
+.album-box {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    text-align: center !important;
+    gap: 35px !important;
+}
+
+.album-info {
+    width: 100% !important;
+    max-width: 750px !important;
+    text-align: center !important;
+}
