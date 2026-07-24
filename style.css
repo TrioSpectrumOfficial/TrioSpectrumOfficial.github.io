@@ -123,81 +123,63 @@ p {
 ========================= */
 
 
-.hero-image {
+.hero{
 
-    width:100%;
+    background:linear-gradient(135deg,#111,#243447);
 
-    max-width:1000px;
+    color:white;
 
-    margin:0 auto 40px;
-
-}
-
-
-.hero-image img {
-
-    width:100%;
-
-    height:auto;
-
-    display:block;
-
-    border-radius:18px;
-
-    box-shadow:0 15px 40px rgba(0,0,0,.35);
+    padding:90px 0 70px;
 
 }
 
 
-.hero-content {
+.hero-content{
 
     text-align:center;
 
 }
-.hero-image {
 
-    width:100%;
 
-    max-width:1000px;
+.hero-content h1{
 
-    margin:0 auto 40px;
+    font-size:4.5rem;
+
+    letter-spacing:3px;
+
+    margin-bottom:10px;
 
 }
 
 
-.hero-image img {
+.hero-content p{
+
+    color:#d9d9d9;
+
+    font-size:1.35rem;
+
+    font-style:italic;
+
+    margin:0 auto 45px;
+
+}
+
+
+.hero-photo{
 
     width:100%;
+
+    max-width:950px;
 
     height:auto;
 
     display:block;
 
+    margin:0 auto;
+
     border-radius:18px;
 
-    box-shadow:0 15px 40px rgba(0,0,0,.35);
-
-}
-
-
-.hero-title h1 {
-
-    font-size:4.2rem;
-
-    letter-spacing:3px;
-
-    margin-bottom:20px;
-
-}
-
-
-.hero-title p {
-
-    color:#ddd;
-
-    font-size:1.5rem;
-
-    font-style:italic;
+    box-shadow:0 20px 45px rgba(0,0,0,.35);
 
 }
 
