@@ -650,3 +650,84 @@ p {
     padding-top:150px;
 
 }
+/* =========================
+   ALBUM OLTRE I CONFINI
+========================= */
+
+.album-box {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:50px;
+
+    margin-top:40px;
+
+}
+
+
+.album-cover {
+
+    width:320px;
+
+    max-width:100%;
+
+    height:auto;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+}
+
+
+.album-info {
+
+    flex:1;
+
+}
+
+
+
+.label-logo {
+
+    margin-top:40px;
+
+    text-align:center;
+
+}
+
+
+.label-logo img {
+
+    width:180px;
+
+    max-width:100%;
+
+    height:auto;
+
+}
+
+
+
+/* SMARTPHONE */
+
+@media(max-width:768px){
+
+
+.album-box {
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+
+.album-cover {
+
+    width:260px;
+
+}
+
+
+}
