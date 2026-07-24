@@ -18,24 +18,20 @@ html {
 }
 
 
+html,
 body {
-   html,
-body{
     overflow-x:hidden;
 }
 
+body {
     font-family:
         "Inter",
         "Helvetica Neue",
         Arial,
         sans-serif;
-
-    background: #f8f6f1;
-
-    color: #242424;
-
-    line-height: 1.7;
-
+    background:#f8f6f1;
+    color:#242424;
+    line-height:1.7;
 }
 
 
