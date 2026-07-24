@@ -593,3 +593,29 @@ p {
     transform:translateY(-3px);
 
 }
+.hero{
+
+    padding-top:120px;
+
+}
+
+
+.hero-content h1{
+
+    font-size:3rem;
+
+}
+
+
+.hero-content p{
+
+    font-size:1.1rem;
+
+}
+
+
+.hero-photo{
+
+    border-radius:12px;
+
+}
