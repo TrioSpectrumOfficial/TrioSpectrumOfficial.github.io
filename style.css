@@ -728,3 +728,7 @@ p {
     width:260px;
 
 }
+.album-cover {
+    width:300px !important;
+    height:auto !important;
+}
