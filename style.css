@@ -867,3 +867,22 @@ p {
     transform:scale(1.03);
 
 }
+/* Loghi più piccoli solo su desktop */
+
+@media (min-width: 769px) {
+
+    .partner-logo img {
+
+        width: 150px !important;
+        height: auto;
+
+    }
+
+    .final-logo img {
+
+        width: 110px !important;
+        height: auto;
+
+    }
+
+}
