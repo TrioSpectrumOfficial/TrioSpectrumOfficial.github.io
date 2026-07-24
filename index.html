@@ -1,1193 +1,656 @@
-/* =========================================================
-   TRIO SPECTRUM
-   Main stylesheet
-   Versione riscritta da zero
-========================================================= */
+<!DOCTYPE html>
+<html lang="it">
 
+<head>
 
-/* =========================================================
-   RESET
-========================================================= */
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-*,
-*::before,
-*::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    <title>Trio Spectrum | Ensemble italiano di Bayan</title>
 
+    <meta name="description"
+        content="Trio Spectrum, ensemble italiano di Bayan. Concerti, repertorio, riconoscimenti e progetto discografico Oltre i Confini.">
 
-html {
-    scroll-behavior: smooth;
-}
+    <link rel="stylesheet" href="style.css">
 
+</head>
 
-body {
-    font-family:
-        "Inter",
-        "Helvetica Neue",
-        Arial,
-        sans-serif;
 
-    background: #f8f6f1;
-    color: #242424;
+<body>
 
-    line-height: 1.7;
 
-    overflow-x: hidden;
-}
+<header class="hero">
 
+    <nav class="navigation">
 
-img {
-    max-width: 100%;
-    height: auto;
-}
+        <div class="container">
 
+            <ul>
 
-a {
-    color: #17365d;
-    text-decoration: none;
-}
+                <li><a href="#chi-siamo">Chi siamo</a></li>
+                <li><a href="#repertorio">Repertorio</a></li>
+                <li><a href="#riconoscimenti">Riconoscimenti</a></li>
+                <li><a href="#oltre-i-confini">Oltre i Confini</a></li>
+                <li><a href="#concerti">Concerti</a></li>
+                <li><a href="#contatti">Contatti</a></li>
 
+            </ul>
 
-a:hover {
-    color: #b89b5e;
-}
+        </div>
 
+    </nav>
 
-/* =========================================================
-   TYPOGRAPHY
-========================================================= */
+    <div class="container hero-content">
 
+        <h1>Trio Spectrum</h1>
 
-h1,
-h2,
-h3 {
+        <p>Ensemble italiano di Bayan</p>
 
-    font-family:
-        "Cormorant Garamond",
-        Georgia,
-        serif;
+        <img src="images/images/images/trio-spectrum.jpg"
+             alt="Trio Spectrum"
+             class="hero-photo">
 
-    font-weight: 600;
+    </div>
 
-    line-height: 1.2;
+</header>
 
-}
 
 
-h1 {
+<main>
 
-    color: white;
 
-}
 
+<section id="chi-siamo" class="section">
 
-h2 {
+<div class="container">
 
-    font-size: 3rem;
+<h2>Chi siamo</h2>
 
-    color: #17365d;
+<p>
+Il Trio Spectrum è un ensemble italiano fondato nel 2023 dall'incontro di tre musicisti
+accomunati dalla volontà di esplorare nuove prospettive artistiche attraverso una formazione
+cameristica originale.
+</p>
 
-    margin-bottom: 40px;
+<p>
+Composto da tre Bayan, strumenti ad ancia libera appartenenti alla famiglia delle fisarmoniche,
+il Trio si distingue per una ricerca musicale che valorizza la ricchezza timbrica,
+la versatilità espressiva e le possibilità interpretative di questo particolare organico.
+</p>
 
-    position: relative;
+<p>
+Attraverso un percorso fondato sullo studio, sulla ricerca e sulla condivisione musicale,
+il Trio Spectrum propone programmi concertistici che attraversano epoche e linguaggi differenti,
+contribuendo alla valorizzazione di questa formazione nel panorama musicale contemporaneo.
+</p>
 
-}
 
+<div class="subsection">
 
-h2::after {
+<h3>I componenti</h3>
 
-    content: "";
+<ul>
+<li>Gabriele Caivano</li>
+<li>Alfredo Barberio</li>
+<li>Nicolas Lepore</li>
+</ul>
 
-    display: block;
+</div>
 
-    width: 75px;
+</div>
 
-    height: 2px;
+</section>
 
-    background: #b89b5e;
 
-    margin-top: 18px;
 
-}
+<section id="repertorio" class="section">
 
+<div class="container">
 
-h3 {
+<h2>Repertorio</h2>
 
-    font-size: 1.7rem;
+<p>
+Il repertorio del Trio Spectrum nasce dal desiderio di costruire programmi concertistici
+capaci di dialogare con pubblici diversi, attraversando epoche, stili e linguaggi musicali.
+Trascrizioni, arrangiamenti e composizioni originali convivono in un percorso artistico
+che unisce tradizione, ricerca e innovazione.
+</p>
 
-    color: #333;
 
-    margin-bottom: 18px;
+<div class="cards">
 
-}
 
+<article>
 
-p {
+<h3>Musica classica</h3>
 
-    max-width: 850px;
+<p>
+Trascrizioni e interpretazioni di opere appartenenti alla grande tradizione musicale,
+ripensate per la formazione del Trio Spectrum nel rispetto dello stile e dell'identità
+delle composizioni originali.
+</p>
 
-    font-size: 1.08rem;
+</article>
 
-    margin-bottom: 24px;
 
-}
 
+<article>
 
-strong {
+<h3>Musica contemporanea</h3>
 
-    font-weight: 700;
+<p>
+Composizioni originali e opere contemporanee che esplorano nuovi linguaggi sonori,
+offrendo uno spazio privilegiato alla ricerca timbrica e alle potenzialità espressive
+dell'ensemble.
+</p>
 
-}
+</article>
 
 
 
-/* =========================================================
-   CONTAINER
-========================================================= */
+<article>
 
+<h3>Colonne sonore e arrangiamenti</h3>
 
-.container {
+<p>
+Celebri musiche per il cinema e arrangiamenti originali, concepiti per valorizzare
+il dialogo tra i tre strumenti e offrire al pubblico programmi coinvolgenti
+e di forte impatto comunicativo.
+</p>
 
-    width: min(1150px, 92%);
+</article>
 
-    margin: 0 auto;
 
-}
 
+<article>
 
+<h3>Progetti concertistici</h3>
 
-/* =========================================================
-   HERO
-========================================================= */
+<p>
+Programmi tematici ideati per teatri, festival, stagioni concertistiche e rassegne culturali,
+costruiti per valorizzare la versatilità dell'ensemble e adattarsi a differenti contesti artistici.
+</p>
 
+</article>
 
-.hero {
 
-    position: relative;
+</div>
 
-    background:
-        linear-gradient(
-            135deg,
-            #111,
-            #243447
-        );
+</div>
 
-    color: white;
+</section>
 
-    padding: 150px 0 80px;
 
-}
 
 
 
-.hero-content {
 
-    text-align: center;
 
-}
 
 
 
-.hero-content h1 {
 
-    font-size: 4.5rem;
 
-    letter-spacing: 3px;
+<section id="riconoscimenti" class="section">
 
-    margin-bottom: 15px;
+<div class="container">
 
-}
+<h2>Riconoscimenti</h2>
 
+<p>
+Il Trio Spectrum ha ottenuto importanti riconoscimenti in concorsi nazionali e internazionali,
+distinguendosi per la qualità delle interpretazioni, l'intesa cameristica e l'originalità
+della propria proposta artistica.
+</p>
 
 
-.hero-content p {
+<div class="awards">
 
-    color: #ddd;
 
-    font-size: 1.35rem;
+<article>
 
-    font-style: italic;
+<h3>2026</h3>
 
-    margin: 0 auto 45px;
+<ul>
 
-}
+<li>
+Primo premio al IV Concorso "Città di Spinazzola"
+</li>
 
+<li>
+Primo premio al V Concorso Internazionale "Città di Maruggio"
+</li>
 
+<li>
+Segnalazione di merito da parte della commissione del Concorso di Musica da Camera
+"Luigi Chieli", che, riconoscendo l’alto livello artistico espresso dall’ensemble,
+ha assegnato al Trio Spectrum un concerto da inserire nella stagione concertistica 2027
+del Circolo Culturale Luigi Angelini.
+</li>
 
-.hero-photo {
+</ul>
 
-    display: block;
+</article>
 
-    width: 100%;
 
-    max-width: 950px;
 
-    margin: 0 auto;
+<article>
 
-    border-radius: 18px;
+<h3>2025</h3>
 
-    box-shadow:
-        0 25px 50px rgba(0,0,0,.35);
+<ul>
 
-}
+<li>
+Secondo posto al Trophée Mondial de l’Accordéon (Francia)
+</li>
 
+<li>
+Terzo posto al 50° Premio Internazionale della Fisarmonica di Castelfidardo
+</li>
 
+<li>
+Primo posto assoluto al Concorso Internazionale di Musica "Ispirazioni Sonore"
+</li>
 
-/* =========================================================
-   NAVIGATION
-========================================================= */
+<li>
+Primo posto assoluto al 35° Concorso Internazionale per Giovani Musicisti "Città di Barletta"
+</li>
 
+<li>
+Vincitori della 7ª Rassegna Concertistica "Sinfonie d’Autunno" di Laterza
+</li>
 
-.navigation {
+</ul>
 
-    position: fixed;
+</article>
 
-    top: 0;
 
-    left: 0;
 
-    width: 100%;
+<article>
 
-    z-index: 1000;
+<h3>2024</h3>
 
-    background:
-        rgba(255,255,255,.96);
+<ul>
 
-    backdrop-filter: blur(10px);
+<li>
+Primo posto al Concorso Internazionale di Musica "Tiziano Rossetti"
+</li>
 
-    box-shadow:
-        0 5px 20px rgba(0,0,0,.08);
+<li>
+Premio per la migliore formazione cameristica italiana al 49° Premio Internazionale
+della Fisarmonica di Castelfidardo
+</li>
 
-}
+<li>
+Secondo posto al Concorso "Giulio Rospigliosi"
+</li>
 
+<li>
+Primo posto assoluto ai Concorsi "Armonie della Sera", Città di Sapri e 14° Italia Award
+</li>
 
+<li>
+Secondo posto al Concorso Internazionale "Pietro Argento"
+</li>
 
-.navigation ul {
+</ul>
 
-    list-style: none;
+</article>
 
-    display: flex;
 
-    justify-content: center;
 
-    align-items: center;
+<article>
 
-    flex-wrap: wrap;
+<h3>2023</h3>
 
-    gap: 30px;
+<ul>
 
-    padding: 18px 0;
+<li>
+Primo posto assoluto al Concorso Internazionale di Musica da Camera
+"San Vincenzo la Costa"
+</li>
 
-}
+</ul>
 
+</article>
 
 
-.navigation a {
+</div>
 
-    color: #222;
+</div>
 
-    font-size: .95rem;
+</section>
 
-    font-weight: 600;
 
-    transition: .3s ease;
 
-}
 
 
-.navigation a:hover {
 
-    color: #b18b43;
+<section id="oltre-i-confini" class="section">
 
-}
+<div class="container">
 
+<h2>Oltre i Confini</h2>
 
+<div class="album-box">
 
-/* =========================================================
-   SECTIONS
-========================================================= */
+    <img src="images/copertina-oltre-i-confini.jpg"
+         alt="Oltre i Confini"
+         class="album-cover">
 
+    <div class="album-text">
 
-.section {
+        <p><strong>Oltre i Confini</strong> è il primo progetto discografico del Trio Spectrum
+        e rappresenta una sintesi del percorso artistico sviluppato dall'ensemble sin dalla sua fondazione.</p>
 
-    padding: 100px 0;
+        <p>Il titolo racchiude la volontà di superare confini stilistici, culturali e sonori,
+        creando un dialogo tra repertori differenti e offrendo nuove prospettive d'ascolto
+        attraverso una formazione cameristica dal carattere unico.</p>
 
-}
+        <p>Il disco propone un itinerario musicale che intreccia tradizione e contemporaneità,
+        ricerca e interpretazione, restituendo al pubblico una visione autentica
+        dell'identità artistica del Trio Spectrum.</p>
 
+    </div>
 
+</div>
 
-.section:nth-child(even) {
+</div>
 
-    background: white;
+</section>
 
-}
 
 
+<section id="ascolta" class="section">
 
-.section p {
+<div class="container">
 
-    text-align: left;
+<h2>Ascolta e acquista</h2>
 
-}
 
+<p>
+Il progetto discografico <strong>Oltre i Confini</strong> è disponibile sulle principali
+piattaforme digitali e in formato fisico.
+</p>
 
 
-.section ul {
+<p>
+Attraverso i link sottostanti è possibile ascoltare il disco in streaming
+oppure acquistare la copia fisica, sostenendo il progetto artistico del Trio Spectrum.
+</p>
 
-    padding-left: 25px;
 
-}
+<div class="listen-links">
 
 
+<a href="https://orcd.co/oltreiconfini"
+target="_blank"
+rel="noopener noreferrer">
 
-.section li {
+🎧 Ascolta il disco
 
-    margin-bottom: 12px;
+</a>
 
-}
 
+<a href="https://wall.cdclick-europe.com/projects/trio-spectrum-oltre-i-confini"
+target="_blank"
+rel="noopener noreferrer">
 
+💿 Acquista la copia fisica
 
-/* =========================================================
-   SUBSECTION
-========================================================= */
+</a>
 
 
-.subsection {
+</div>
 
-    margin-top: 45px;
+<div class="label-logo">
 
-}
+<img src="images/logo-epicentro-dischi.png"
+     alt="Epicentro Dischi">
+</div>
+</div>
 
+</section>
 
 
-/* =========================================================
-   GENERIC CARDS
-========================================================= */
 
 
-.cards {
 
-    display: grid;
+<section id="suono-spectrum" class="section">
 
-    grid-template-columns: repeat(2, 1fr);
+<div class="container">
 
-    gap: 30px;
+<h2>Il suono Spectrum</h2>
 
-    margin-top: 50px;
 
-}
+<p>
+Il percorso artistico del Trio Spectrum si sviluppa anche attraverso il rapporto
+con Bugari, storica realtà di Castelfidardo dedicata alla costruzione di
+fisarmoniche.
+</p>
 
 
+<p>
+Dal dialogo con questa importante realtà artigianale nasce un progetto che
+unisce ricerca musicale, tradizione e innovazione: l’incisione di
+<em>Lupin</em>, celebre brano di Franco Micalizzi, nell’arrangiamento del
+Maestro Walter Di Girolamo.
+</p>
 
-.cards article {
 
-    background: white;
+<p>
+Il videoclip, realizzato all’interno della sede Bugari e diffuso sulle
+piattaforme digitali, racconta l’incontro tra il mondo della musica e quello
+dell’artigianato, mettendo in relazione la cura nella costruzione dello
+strumento con le sue infinite possibilità espressive.
+</p>
 
-    padding: 35px;
 
-    border-radius: 12px;
+<p>
+Attraverso questa esperienza, il Trio Spectrum continua il proprio percorso
+di valorizzazione del Bayan, portando avanti una visione musicale in cui
+tradizione e nuove prospettive sonore convivono.
+</p>
 
-    box-shadow:
-        0 12px 30px rgba(0,0,0,.08);
 
-    transition:
-        transform .3s ease,
-        box-shadow .3s ease;
+<div class="partner-logo">
 
-}
+<p>
+In collaborazione con
+</p>
 
+<img src="images/logo-bugari.jpg"
+     alt="Bugari">
 
+</div>
 
-.cards article:hover {
 
-    transform: translateY(-6px);
+<div class="video-link">
 
-    box-shadow:
-        0 18px 35px rgba(0,0,0,.12);
+<a href="https://youtu.be/TKR3XLvvDoE?si=jDcEWu2cmuAcpVHd"
+target="_blank"
+rel="noopener noreferrer">
 
-}
+🎬 Guarda il videoclip
 
+</a>
 
+</div>
 
-/* =========================================================
-   AWARDS
-========================================================= */
 
+</div>
 
-.awards {
+</section>
 
-    display: flex;
 
-    flex-direction: column;
+<section id="concerti" class="section">
 
-    gap: 35px;
+<div class="container">
 
-}
+<h2>Concerti</h2>
 
 
+<p>
+Il Trio Spectrum svolge un'intensa attività concertistica collaborando con associazioni,
+istituzioni musicali e realtà culturali in Italia e all'estero.
+</p>
 
-.awards article {
 
-    background: white;
+<p>
+I programmi proposti accompagnano il pubblico attraverso epoche, stili e linguaggi musicali
+differenti, con l'obiettivo di coniugare tradizione, ricerca e innovazione.
+</p>
 
-    padding: 35px;
 
-    border-left: 4px solid #b89b5e;
+<p>
+Ogni concerto nasce dal desiderio di condividere un'esperienza musicale coinvolgente,
+capace di valorizzare la ricchezza espressiva dell'ensemble e di avvicinare il pubblico
+a repertori e sonorità originali.
+</p>
 
-    box-shadow:
-        0 10px 25px rgba(0,0,0,.07);
 
-}
+<h3>Collaborazioni</h3>
 
 
+<p>
+Nel corso della propria attività, il Trio Spectrum ha collaborato con numerose associazioni,
+istituzioni musicali e organizzatori di stagioni concertistiche, partecipando a festival,
+rassegne ed eventi culturali.
+</p>
 
-.awards ul {
 
-    padding-left: 25px;
+</div>
 
-}
+</section>
 
 
 
-/* =========================================================
-   CONTACTS
-========================================================= */
 
+<section id="contatti" class="section">
 
-.contacts {
+<div class="container">
 
-    background: white;
+<h2>Contatti</h2>
 
-    padding: 40px;
 
-    border-radius: 12px;
+<p>
+Per informazioni, collaborazioni artistiche, proposte concertistiche o richieste
+relative al Trio Spectrum, è possibile contattare l'ensemble attraverso i recapiti
+riportati di seguito.
+</p>
 
-    box-shadow:
-        0 10px 30px rgba(0,0,0,.08);
 
-}
 
+<div class="contacts">
 
 
-.contacts h3 {
+<p>
+<strong>Email</strong><br>
 
-    margin-top: 30px;
+<a href="mailto:triospectrum23@gmail.com">
+triospectrum23@gmail.com
+</a>
 
-}
+</p>
 
 
 
-.contacts ul {
+<h3>Referenti</h3>
 
-    list-style: none;
 
-    padding-left: 0;
+<ul>
 
-}
+<li>
+<strong>Gabriele Caivano</strong><br>
+<a href="tel:+393404028535">+39 340 402 8535</a>
+</li>
 
 
-.contacts li {
+<li>
+<strong>Alfredo Barberio</strong><br>
+<a href="tel:+393339052712">+39 333 905 2712</a>
+</li>
 
-    margin-bottom: 18px;
 
-}
+<li>
+<strong>Nicolas Lepore</strong><br>
+<a href="tel:+393890988049">+39 389 098 8049</a>
+</li>
 
+</ul>
 
-/* FINE PARTE 1/3 */
-/* =========================================================
-   ALBUM - OLTRE I CONFINI
-========================================================= */
 
+</div>
 
-.album-box {
 
-    display: flex;
+</div>
 
-    align-items: center;
+</section>
+<section class="final-logo">
 
-    justify-content: flex-start;
+    <div class="container">
 
-    gap: 60px;
+        <img src="images/logo-trio-spectrum.jpg"
+             alt="Logo Trio Spectrum">
 
-    margin-top: 50px;
+    </div>
 
-}
+</section>
 
 
+</main>
 
-.album-cover {
 
-    width: 320px;
 
-    flex-shrink: 0;
 
-    display: block;
 
-    box-shadow:
-        0 20px 40px rgba(0,0,0,.18);
+<footer>
 
-}
+<div class="container">
 
 
+<p><strong>Trio Spectrum</strong></p>
 
-.album-text {
+<p>Ensemble italiano di Bayan</p>
 
-    flex: 1;
 
-    max-width: 650px;
+<p>
+<a href="mailto:triospectrum23@gmail.com">
+triospectrum23@gmail.com
+</a>
+</p>
 
-}
 
+<p>
 
+<a href="https://www.instagram.com/trio_spectrum?igsh=MWRuN2J3MnQ5Z3F6Zw=="
+target="_blank"
+rel="noopener noreferrer">
+Instagram
+</a>
 
-.album-text p {
+|
 
-    max-width: 100%;
+<a href="https://www.facebook.com/share/1CpH9aThuK/"
+target="_blank"
+rel="noopener noreferrer">
+Facebook
+</a>
 
-}
+</p>
 
 
+<p>
+© 2026 Trio Spectrum. Tutti i diritti riservati.
+</p>
 
-/* =========================================================
-   ASCOLTA E ACQUISTA
-========================================================= */
 
+</div>
 
-.listen-links {
+</footer>
 
-    display: flex;
 
-    gap: 25px;
 
-    flex-wrap: wrap;
+</body>
 
-    margin-top: 40px;
-
-}
-
-
-
-.listen-links a {
-
-    display: inline-flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    padding: 15px 32px;
-
-    background: #17365d;
-
-    color: white;
-
-    border-radius: 40px;
-
-    font-weight: 600;
-
-    transition: .3s ease;
-
-}
-
-
-
-.listen-links a:hover {
-
-    background: #b89b5e;
-
-    color: white;
-
-    transform: translateY(-3px);
-
-}
-
-
-
-/* =========================================================
-   LOGO EPICENTRO DISCHI
-========================================================= */
-
-
-.label-logo {
-
-    margin-top: 50px;
-
-    text-align: center;
-
-}
-
-
-
-.label-logo img {
-
-    width: 160px;
-
-    height: auto;
-
-}
-
-
-
-/* =========================================================
-   LOGO BUGARI
-========================================================= */
-
-
-.partner-logo {
-
-    text-align: center;
-
-    margin-top: 55px;
-
-}
-
-
-
-.partner-logo p {
-
-    margin-bottom: 25px;
-
-    font-style: italic;
-
-    color: #555;
-
-}
-
-
-
-.partner-logo img {
-
-    width: 140px;
-
-    height: auto;
-
-    display: inline-block;
-
-}
-
-
-
-/* =========================================================
-   VIDEO BUTTON
-========================================================= */
-
-
-.video-link {
-
-    text-align: center;
-
-    margin-top: 40px;
-
-}
-
-
-
-.video-link a {
-
-    display: inline-block;
-
-    padding: 14px 35px;
-
-    background: #17365d;
-
-    color: white;
-
-    border-radius: 30px;
-
-    font-weight: 600;
-
-    transition: .3s ease;
-
-}
-
-
-
-.video-link a:hover {
-
-    background: #b89b5e;
-
-    color: white;
-
-}
-
-
-
-/* =========================================================
-   LOGO FINALE TRIO SPECTRUM
-========================================================= */
-
-
-.final-logo {
-
-    background: #f8f6f1;
-
-    padding: 50px 0;
-
-    text-align: center;
-
-}
-
-
-
-.final-logo img {
-
-    width: 110px;
-
-    height: auto;
-
-}
-
-
-
-/* =========================================================
-   FOOTER
-========================================================= */
-
-
-footer {
-
-    background: #1e1e1e;
-
-    color: white;
-
-    text-align: center;
-
-    padding: 60px 20px;
-
-}
-
-
-
-footer p {
-
-    margin: 12px auto;
-
-}
-
-
-
-footer a {
-
-    color: #d6b675;
-
-}
-
-
-
-footer a:hover {
-
-    color: white;
-
-}
-
-
-
-/* =========================================================
-   TABLET / DESKTOP REFINEMENTS
-========================================================= */
-
-
-@media (min-width: 769px) {
-
-
-    .hero {
-
-        padding-top: 150px;
-
-    }
-
-
-    .album-box {
-
-        min-height: 420px;
-
-    }
-
-
-    .album-text {
-
-        display: flex;
-
-        flex-direction: column;
-
-        justify-content: center;
-
-    }
-
-
-    .partner-logo img {
-
-        width: 140px;
-
-    }
-
-
-    .final-logo img {
-
-        width: 110px;
-
-    }
-
-
-}
-
-
-/* FINE PARTE 2/3 */
-/* =========================================================
-   MOBILE RESPONSIVE DEFINITIVO
-========================================================= */
-
-
-@media (max-width: 768px) {
-
-
-    .container {
-
-        width: 88%;
-
-    }
-
-
-
-    /* -------------------------
-       NAVIGATION MOBILE
-    ------------------------- */
-
-
-    .navigation ul {
-
-        gap: 12px 18px;
-
-        padding: 15px 5px;
-
-    }
-
-
-
-    .navigation a {
-
-        font-size: .82rem;
-
-    }
-
-
-
-
-    /* -------------------------
-       HERO MOBILE
-    ------------------------- */
-
-
-    .hero {
-
-        padding-top: 150px;
-
-        padding-bottom: 60px;
-
-    }
-
-
-
-    .hero-content h1 {
-
-        font-size: 2.8rem;
-
-        letter-spacing: 1px;
-
-    }
-
-
-
-    .hero-content p {
-
-        font-size: 1.1rem;
-
-    }
-
-
-
-    .hero-photo {
-
-        border-radius: 12px;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       TYPOGRAPHY MOBILE
-    ------------------------- */
-
-
-    h2 {
-
-        font-size: 2.2rem;
-
-    }
-
-
-
-    h3 {
-
-        font-size: 1.45rem;
-
-    }
-
-
-
-    p {
-
-        font-size: 1rem;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       SECTIONS MOBILE
-    ------------------------- */
-
-
-    .section {
-
-        padding: 65px 0;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       CARDS MOBILE
-    ------------------------- */
-
-
-    .cards {
-
-        grid-template-columns: 1fr;
-
-        gap: 25px;
-
-    }
-
-
-
-    .cards article {
-
-        padding: 28px;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       AWARDS MOBILE
-    ------------------------- */
-
-
-    .awards article {
-
-        padding: 28px;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       ALBUM MOBILE
-    ------------------------- */
-
-
-    .album-box {
-
-        display: flex;
-
-        flex-direction: column;
-
-        align-items: center;
-
-        gap: 35px;
-
-        text-align: center;
-
-    }
-
-
-
-    .album-cover {
-
-        width: 270px;
-
-        max-width: 100%;
-
-        margin: 0 auto;
-
-    }
-
-
-
-    .album-text {
-
-        width: 100%;
-
-        max-width: 100%;
-
-        text-align: left;
-
-    }
-
-
-
-    .album-text p {
-
-        text-align: left;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       BUTTONS MOBILE
-    ------------------------- */
-
-
-    .listen-links {
-
-        flex-direction: column;
-
-        align-items: stretch;
-
-        gap: 15px;
-
-    }
-
-
-
-    .listen-links a {
-
-        width: 100%;
-
-        text-align: center;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       CONTACTS MOBILE
-    ------------------------- */
-
-
-    .contacts {
-
-        padding: 28px;
-
-    }
-
-
-
-
-
-    /* -------------------------
-       LOGHI MOBILE
-    ------------------------- */
-
-
-    .label-logo img {
-
-        width: 130px;
-
-    }
-
-
-
-    .partner-logo img {
-
-        width: 120px;
-
-    }
-
-
-
-    .final-logo {
-
-        padding: 35px 0;
-
-    }
-
-
-
-    .final-logo img {
-
-        width: 90px;
-
-    }
-
-
-}
-
-
-
-/* =========================================================
-   PICCOLI SMARTPHONE
-========================================================= */
-
-
-@media (max-width: 420px) {
-
-
-    .hero-content h1 {
-
-        font-size: 2.35rem;
-
-    }
-
-
-
-    .navigation a {
-
-        font-size: .75rem;
-
-    }
-
-
-
-    .album-cover {
-
-        width: 240px;
-
-    }
-
-
-
-    h2 {
-
-        font-size: 2rem;
-
-    }
-
-
-}
-
-
-
-/* =========================================================
-   FINE STYLE.CSS
-========================================================= */
+</html>
