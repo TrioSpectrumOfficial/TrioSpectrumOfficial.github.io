@@ -23,19 +23,27 @@ body {
     overflow-x:hidden;
 }
 
+
 body {
+
     font-family:
         "Inter",
         "Helvetica Neue",
         Arial,
         sans-serif;
+
     background:#f8f6f1;
+
     color:#242424;
+
     line-height:1.7;
+
 }
 
 
+
 /* TYPOGRAPHY */
+
 
 h1,
 h2,
@@ -46,22 +54,24 @@ h3 {
         Georgia,
         serif;
 
-    font-weight: 600;
+    font-weight:600;
 
 }
+
 
 
 h2 {
 
-    font-size: 3rem;
+    font-size:3rem;
 
     color:#17365d;
 
-    margin-bottom: 35px;
+    margin-bottom:35px;
 
     position:relative;
 
 }
+
 
 
 h2::after {
@@ -79,6 +89,7 @@ h2::after {
     margin-top:18px;
 
 }
+
 
 
 h3 {
@@ -104,7 +115,9 @@ p {
 }
 
 
+
 /* CONTAINER */
+
 
 .container{
 
@@ -134,11 +147,13 @@ p {
 }
 
 
+
 .hero-content{
 
     text-align:center;
 
 }
+
 
 
 .hero-content h1{
@@ -152,6 +167,7 @@ p {
 }
 
 
+
 .hero-content p{
 
     color:#d9d9d9;
@@ -163,6 +179,7 @@ p {
     margin:0 auto 45px;
 
 }
+
 
 
 .hero-photo{
@@ -241,6 +258,7 @@ p {
 }
 
 
+
 .navigation a:hover {
 
     color:#b18b43;
@@ -269,7 +287,6 @@ p {
     background:#fff;
 
 }
-
 
 
 
@@ -341,11 +358,6 @@ p {
     transform:translateY(-5px);
 
 }
-
-
-
-
-
 /* =========================
    AWARDS
 ========================= */
@@ -362,6 +374,7 @@ p {
 }
 
 
+
 .awards article {
 
     background:white;
@@ -375,6 +388,7 @@ p {
     0 8px 20px rgba(0,0,0,.06);
 
 }
+
 
 
 
@@ -407,6 +421,7 @@ p {
     text-decoration:none;
 
 }
+
 
 
 .contacts a:hover {
@@ -450,11 +465,13 @@ footer {
 }
 
 
+
 footer p {
 
     margin:10px auto;
 
 }
+
 
 
 footer a {
@@ -468,90 +485,10 @@ footer a {
 
 
 /* =========================
-   MOBILE
+   LISTEN LINKS
 ========================= */
 
 
-@media(max-width:768px){
-
-
-.navigation ul {
-
-    flex-wrap:wrap;
-
-    gap:15px;
-
-    padding:15px;
-
-}
-
-
-
-.hero {
-
-    min-height:75vh;
-
-}
-
-
-
-.hero-title h1 {
-
-    font-size:3rem;
-
-}
-
-
-
-.hero-title p {
-
-    font-size:1.2rem;
-
-}
-
-
-
-.section {
-
-    padding:65px 0;
-
-}
-
-
-
-h2 {
-
-    font-size:2.2rem;
-
-}
-
-
-
-.cards {
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.container {
-
-    width:88%;
-
-}
-
-
-
-p {
-
-    font-size:1rem;
-
-}
-
-
-
-}
 .listen-links {
 
     display:flex;
@@ -563,6 +500,7 @@ p {
     flex-wrap:wrap;
 
 }
+
 
 
 .listen-links a {
@@ -586,604 +524,6 @@ p {
 }
 
 
-.listen-links a:hover {
-
-    background:#b89b5e;
-
-    transform:translateY(-3px);
-
-}
-/* ===================================
-   TRIO SPECTRUM
-   Main stylesheet
-=================================== */
-
-
-/* RESET */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-body {
-   html,
-body{
-    overflow-x:hidden;
-}
-
-    font-family:
-        "Inter",
-        "Helvetica Neue",
-        Arial,
-        sans-serif;
-
-    background: #f8f6f1;
-
-    color: #242424;
-
-    line-height: 1.7;
-
-}
-
-
-/* TYPOGRAPHY */
-
-h1,
-h2,
-h3 {
-
-    font-family:
-        "Cormorant Garamond",
-        Georgia,
-        serif;
-
-    font-weight: 600;
-
-}
-
-
-h2 {
-
-    font-size: 3rem;
-
-    color:#17365d;
-
-    margin-bottom: 35px;
-
-    position:relative;
-
-}
-
-
-h2::after {
-
-    content:"";
-
-    display:block;
-
-    width:70px;
-
-    height:2px;
-
-    background:#b89b5e;
-
-    margin-top:18px;
-
-}
-
-
-h3 {
-
-    font-size:1.7rem;
-
-    color:#333;
-
-    margin-bottom:15px;
-
-}
-
-
-
-p {
-
-    max-width:850px;
-
-    margin-bottom:22px;
-
-    font-size:1.08rem;
-
-}
-
-
-/* CONTAINER */
-
-.container{
-
-    width:min(1150px, 92%);
-
-    margin:auto;
-
-}
-
-
-
-
-
-/* =========================
-   HERO
-========================= */
-
-
-.hero{
-
-    background:linear-gradient(135deg,#111,#243447);
-
-    color:white;
-
-    padding:90px 0 70px;
-
-}
-
-
-.hero-content{
-
-    text-align:center;
-
-}
-
-
-.hero-content h1{
-
-    font-size:4.5rem;
-
-    letter-spacing:3px;
-
-    margin-bottom:10px;
-
-}
-
-
-.hero-content p{
-
-    color:#d9d9d9;
-
-    font-size:1.35rem;
-
-    font-style:italic;
-
-    margin:0 auto 45px;
-
-}
-
-
-.hero-photo{
-
-    width:100%;
-
-    max-width:950px;
-
-    height:auto;
-
-    display:block;
-
-    margin:0 auto;
-
-    border-radius:18px;
-
-    box-shadow:0 20px 45px rgba(0,0,0,.35);
-
-}
-
-
-
-
-
-/* =========================
-   NAVIGATION
-========================= */
-
-
-.navigation {
-
-    position:fixed;
-
-    top:0;
-
-    width:100%;
-
-    z-index:1000;
-
-    background:rgba(255,255,255,.95);
-
-    backdrop-filter:blur(8px);
-
-}
-
-
-
-.navigation ul {
-
-    list-style:none;
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:35px;
-
-    padding:18px 0;
-
-}
-
-
-
-.navigation a {
-
-    text-decoration:none;
-
-    color:#222;
-
-    font-weight:600;
-
-    font-size:.95rem;
-
-    transition:.3s;
-
-}
-
-
-.navigation a:hover {
-
-    color:#b18b43;
-
-}
-
-
-
-
-
-/* =========================
-   SECTIONS
-========================= */
-
-
-.section {
-
-    padding:100px 0;
-
-}
-
-
-
-.section:nth-child(even){
-
-    background:#fff;
-
-}
-
-
-
-
-.section p {
-
-    text-align:left;
-
-}
-
-
-
-.section ul {
-
-    padding-left:25px;
-
-}
-
-
-
-.section li {
-
-    margin-bottom:12px;
-
-}
-
-
-
-
-
-/* =========================
-   REPERTORIO CARDS
-========================= */
-
-
-.cards {
-
-    display:grid;
-
-    grid-template-columns:repeat(2,1fr);
-
-    gap:30px;
-
-    margin-top:50px;
-
-}
-
-
-
-.cards article {
-
-    background:white;
-
-    padding:35px;
-
-    border-radius:12px;
-
-    box-shadow:
-
-    0 10px 25px rgba(0,0,0,.08);
-
-    transition:.3s;
-
-}
-
-
-
-.cards article:hover {
-
-    transform:translateY(-5px);
-
-}
-
-
-
-
-
-/* =========================
-   AWARDS
-========================= */
-
-
-.awards {
-
-    display:flex;
-
-    flex-direction:column;
-
-    gap:35px;
-
-}
-
-
-.awards article {
-
-    background:white;
-
-    padding:35px;
-
-    border-left:4px solid #b89b5e;
-
-    box-shadow:
-
-    0 8px 20px rgba(0,0,0,.06);
-
-}
-
-
-
-
-/* =========================
-   CONTACTS
-========================= */
-
-
-.contacts {
-
-    background:white;
-
-    padding:40px;
-
-    border-radius:12px;
-
-    box-shadow:
-
-    0 10px 30px rgba(0,0,0,.08);
-
-}
-
-
-
-.contacts a {
-
-    color:#17365d;
-
-    text-decoration:none;
-
-}
-
-
-.contacts a:hover {
-
-    text-decoration:underline;
-
-}
-
-
-
-
-
-/* LINKS */
-
-
-a {
-
-    color:#17365d;
-
-}
-
-
-
-
-
-/* =========================
-   FOOTER
-========================= */
-
-
-footer {
-
-    background:#1e1e1e;
-
-    color:white;
-
-    text-align:center;
-
-    padding:60px 20px;
-
-}
-
-
-footer p {
-
-    margin:10px auto;
-
-}
-
-
-footer a {
-
-    color:#d6b675;
-
-}
-
-
-
-
-
-/* =========================
-   MOBILE
-========================= */
-
-
-@media(max-width:768px){
-
-
-.navigation ul {
-
-    flex-wrap:wrap;
-
-    gap:15px;
-
-    padding:15px;
-
-}
-
-
-
-.hero {
-
-    min-height:75vh;
-
-}
-
-
-
-.hero-title h1 {
-
-    font-size:3rem;
-
-}
-
-
-
-.hero-title p {
-
-    font-size:1.2rem;
-
-}
-
-
-
-.section {
-
-    padding:65px 0;
-
-}
-
-
-
-h2 {
-
-    font-size:2.2rem;
-
-}
-
-
-
-.cards {
-
-    grid-template-columns:1fr;
-
-}
-
-
-
-.container {
-
-    width:88%;
-
-}
-
-
-
-p {
-
-    font-size:1rem;
-
-}
-
-
-
-}
-.listen-links {
-
-    display:flex;
-
-    gap:25px;
-
-    margin-top:40px;
-
-    flex-wrap:wrap;
-
-}
-
-
-.listen-links a {
-
-    display:inline-block;
-
-    padding:15px 30px;
-
-    background:#17365d;
-
-    color:white;
-
-    text-decoration:none;
-
-    border-radius:30px;
-
-    font-weight:600;
-
-    transition:.3s;
-
-}
-
 
 .listen-links a:hover {
 
@@ -1192,107 +532,108 @@ p {
     transform:translateY(-3px);
 
 }
-.hero{
-
-    padding-top:120px;
-
-}
 
 
-.hero-content h1{
-
-    font-size:2.4rem;
-
-    letter-spacing:1px;
-
-    line-height:1.1;
-
-}
 
 
-.hero-content p{
 
-    font-size:1.1rem;
-
-}
-
-
-.hero-photo{
-
-    border-radius:12px;
-
-}
-.navigation ul{
-
-    flex-wrap:wrap;
-
-    gap:12px 18px;
-
-    padding:15px;
-
-}
-
-
-.navigation a{
-
-    font-size:.85rem;
-
-}
-
-
-.hero{
-
-    padding-top:150px;
-
-}
 /* =========================
    ALBUM OLTRE I CONFINI
 ========================= */
 
-/* =========================
-   OLTRE I CONFINI
-========================= */
 
 .album-box{
+
     display:flex;
+
     align-items:flex-start;
+
     gap:60px;
+
     margin-top:40px;
+
 }
+
+
 
 .album-cover{
+
     width:320px;
+
     height:auto;
+
     display:block;
-    box-shadow:0 15px 35px rgba(0,0,0,.18);
+
+    box-shadow:
+
+    0 15px 35px rgba(0,0,0,.18);
+
 }
+
+
 
 .album-text{
+
     flex:1;
+
 }
 
+
+
 .album-text p{
+
     max-width:100%;
+
 }
+
+
+
+
+
+/* =========================
+   MOBILE ALBUM
+========================= */
+
 
 @media(max-width:768px){
 
+
     .album-box{
+
         flex-direction:column;
+
         align-items:center;
+
         gap:30px;
+
     }
+
+
 
     .album-cover{
+
         width:260px;
+
     }
 
+
+
     .album-text{
+
         text-align:left;
+
     }
+
 
 }
 
+
+
+
+
+/* =========================
+   LOGO EPICENTRO
+========================= */
 
 
 .label-logo {
@@ -1304,14 +645,195 @@ p {
 }
 
 
+
 .label-logo img{
+
     width:160px;
+
     height:auto;
+
 }
 
 
 
-/* SMARTPHONE */
+
+
+/* =========================
+   LOGO BUGARI
+========================= */
+
+
+.partner-logo {
+
+    text-align:center;
+
+    margin-top:45px;
+
+}
+
+
+
+.partner-logo img{
+
+    width:40px;
+
+    height:auto;
+
+}
+
+
+
+
+
+/* =========================
+   LOGO TRIO FINALE
+========================= */
+
+
+.final-logo{
+
+    text-align:center;
+
+    padding:40px 0;
+
+}
+
+
+
+.final-logo img{
+
+    width:40px;
+
+    height:auto;
+
+}
+
+
+
+
+
+/* =========================
+   DESKTOP LOGHI
+========================= */
+
+
+@media (min-width:769px){
+
+
+    .partner-logo img {
+
+        width:150px;
+
+        height:auto;
+
+    }
+
+
+
+    .final-logo img {
+
+        width:110px;
+
+        height:auto;
+
+    }
+
+
+}
+/* =========================
+   MOBILE
+========================= */
+
+
+@media(max-width:768px){
+
+
+.navigation ul {
+
+    flex-wrap:wrap;
+
+    gap:15px;
+
+    padding:15px;
+
+}
+
+
+
+.hero {
+
+    min-height:75vh;
+
+}
+
+
+
+.hero-content h1 {
+
+    font-size:3rem;
+
+}
+
+
+
+.hero-content p {
+
+    font-size:1.2rem;
+
+}
+
+
+
+.section {
+
+    padding:65px 0;
+
+}
+
+
+
+h2 {
+
+    font-size:2.2rem;
+
+}
+
+
+
+.cards {
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.container {
+
+    width:88%;
+
+}
+
+
+
+p {
+
+    font-size:1rem;
+
+}
+
+
+
+}
+
+
+
+
+
+/* =========================
+   ALBUM MOBILE DEFINITIVO
+========================= */
+
 
 @media(max-width:768px){
 
@@ -1320,9 +842,12 @@ p {
 
     flex-direction:column;
 
+    align-items:center;
+
     text-align:center;
 
 }
+
 
 
 .album-cover {
@@ -1330,181 +855,160 @@ p {
     width:260px;
 
 }
-.album-cover {
-    width:300px !important;
-    height:auto !important;
-}
-   /* Correzione definitiva layout album */
 
-.album-box {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    gap: 35px !important;
-}
 
-.album-info {
-    width: 100% !important;
-    max-width: 750px !important;
-    text-align: center !important;
-}
-/* Sistemazione definitiva album */
 
-.album-box {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    justify-content: center !important;
-    text-align: center !important;
-}
+.album-text {
 
-.album-cover {
-    display: block !important;
-    margin: 0 auto 35px auto !important;
-}
-
-.album-info {
-    display: block !important;
-    width: 100% !important;
-    max-width: 750px !important;
-    text-align: center !important;
-}
-.album-info p {
-
-    max-width:750px;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
+    text-align:left;
 
 }
-/* Layout album desktop */
+
+
+}
+
+
+
+
+
+/* =========================
+   DESKTOP ALBUM
+========================= */
+
 
 @media(min-width:769px){
 
-    .album-box {
 
-        display:flex !important;
-        flex-direction:row !important;
-        align-items:center !important;
-        justify-content:flex-start !important;
-        text-align:left !important;
-        gap:50px;
+.album-box {
 
-    }
+    display:flex;
 
+    flex-direction:row;
 
-    .album-cover {
+    align-items:center;
 
-        margin:0 !important;
-        width:320px;
+    justify-content:flex-start;
 
-    }
+    text-align:left;
 
-
-    .album-info {
-
-        text-align:left !important;
-        max-width:600px;
-
-    }
-
-
-    .album-info p {
-
-        text-align:left !important;
-        margin-left:0;
-        margin-right:0;
-
-    }
-
-}
-/* ===========================
-   LOGHI DEFINITIVI
-=========================== */
-
-.partner-logo{
-
-    text-align:center;
-    margin-top:45px;
+    gap:50px;
 
 }
 
-.partner-logo img{
-    width:40px !important;
-    border:2px solid red;
-}
 
 
-.final-logo{
+.album-cover {
 
-    text-align:center;
-    padding:40px 0;
+    margin:0;
+
+    width:320px;
 
 }
 
-.final-logo img{
-    width:40px !important;
-    border:2px solid blue;
-}
-/* Loghi più piccoli solo su desktop */
 
-@media (min-width: 769px) {
 
-    .partner-logo img {
+.album-text {
 
-        width: 150px !important;
-        height: auto;
+    text-align:left;
 
-    }
-
-    .final-logo img {
-
-        width: 110px !important;
-        height: auto;
-
-    }
+    max-width:600px;
 
 }
-/* ===== FIX DESKTOP DEFINITIVO ===== */
-
-@media (min-width: 769px) {
-
-    /* Logo Bugari */
-    .partner-logo img {
-        width: 120px !important;
-        max-width: 120px !important;
-        height: auto !important;
-    }
 
 
-    /* Logo Trio finale */
-    .final-logo img {
-        width: 90px !important;
-        max-width: 90px !important;
-        height: auto !important;
-    }
 
+.album-text p {
 
-    /* Copertina */
-    .album-box {
-        display: block !important;
-        text-align: left !important;
-        margin-top: 40px !important;
-    }
+    text-align:left;
 
+    margin-left:0;
 
-    .album-cover {
-        width: 320px !important;
-        max-width: 320px !important;
-        margin: 0 !important;
-        display: block !important;
-    }
-
-
-    /* testo immediatamente sotto */
-    #oltre-i-confini .container > p {
-        margin-top: 20px !important;
-    }
+    margin-right:0;
 
 }
+
+
+}
+
+
+
+
+
+/* =========================
+   FIX SPAZIATURE FINALI
+========================= */
+
+
+.hero {
+
+    padding-top:120px;
+
+}
+
+
+
+@media(max-width:768px){
+
+
+.hero {
+
+    padding-top:150px;
+
+}
+
+
+
+.hero-content h1 {
+
+    font-size:2.4rem;
+
+    letter-spacing:1px;
+
+    line-height:1.1;
+
+}
+
+
+
+.hero-content p {
+
+    font-size:1.1rem;
+
+}
+
+
+
+.hero-photo {
+
+    border-radius:12px;
+
+}
+
+
+
+.navigation ul {
+
+    flex-wrap:wrap;
+
+    gap:12px 18px;
+
+}
+
+
+
+.navigation a {
+
+    font-size:.85rem;
+
+}
+
+
+}
+
+
+
+
+
+/* =========================
+   FINE CSS
+========================= */
