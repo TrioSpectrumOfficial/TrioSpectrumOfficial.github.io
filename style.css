@@ -1197,3 +1197,35 @@ footer a:hover {
 /* =========================================================
    FINE STYLE.CSS
 ========================================================= */
+/* =========================
+   HAMBURGER MENU
+========================= */
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #17365d;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+    .menu-toggle {
+        display: block;
+        margin: 15px auto;
+    }
+
+    .navigation ul {
+        display: none;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+    }
+
+    .navigation ul.active {
+        display: flex;
+    }
+
+}
