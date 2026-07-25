@@ -1181,7 +1181,33 @@ footer a:hover {
 }
 
 
+/* =========================================================
+   LANGUAGE SWITCH
+========================================================= */
 
+.language-switch {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+
+.language-switch a {
+
+    font-size: .85rem;
+    font-weight: 700;
+    color: #17365d;
+
+}
+
+
+.language-switch a:hover {
+
+    color: #b89b5e;
+
+}
 /* =========================================================
    FINE STYLE.CSS
 ========================================================= */
