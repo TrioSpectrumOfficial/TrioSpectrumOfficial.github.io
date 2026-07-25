@@ -1229,3 +1229,16 @@ footer a:hover {
     }
 
 }
+@media (min-width: 769px) {
+
+    .partner-logo p {
+        margin-bottom: 8px;
+    }
+
+    .partner-logo img {
+        width: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
