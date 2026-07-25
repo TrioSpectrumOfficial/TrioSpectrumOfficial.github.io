@@ -635,35 +635,21 @@ strong {
 
 
 .partner-logo {
-
     text-align: center;
-
     margin-top: 55px;
-
 }
-
-
 
 .partner-logo p {
-
-    margin-bottom: 12px;
-
+    margin-bottom: 8px;
     font-style: italic;
-
     color: #555;
-
 }
 
-
-
 .partner-logo img {
-
     width: 240px;
-
     height: auto;
-
-    display: inline-block;
-
+    display: block;
+    margin: 0 auto;
 }
 
 
