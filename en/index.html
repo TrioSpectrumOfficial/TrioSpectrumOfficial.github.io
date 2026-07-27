@@ -672,7 +672,13 @@ const menu = document.querySelector(".navigation ul");
 menuToggle.addEventListener("click", () => {
     menu.classList.toggle("active");
 });
+const menuLinks = document.querySelectorAll(".navigation ul a");
 
+menuLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("active");
+    });
+});
 </script>
 
 </html>
