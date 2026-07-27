@@ -1209,6 +1209,16 @@ footer a:hover {
     color: #17365d;
     cursor: pointer;
 }
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 2rem;
+    color: #17365d;
+    cursor: pointer;
+}
 
 @media (max-width: 768px) {
 
