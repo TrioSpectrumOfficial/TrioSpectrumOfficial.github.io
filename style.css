@@ -1305,3 +1305,15 @@ footer a:hover {
         margin: 0 auto;
     }
 }
+.trio-photo-section {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.trio-group-photo {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
