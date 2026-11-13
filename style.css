@@ -1252,3 +1252,56 @@ footer a:hover {
     }
 
 }
+/* =========================================================
+   LIVE PERFORMANCES
+========================================================= */
+
+.live-videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 45px;
+}
+
+.live-video {
+    display: block;
+    color: #17365d;
+    text-decoration: none;
+    transition: transform .3s ease;
+}
+
+.live-video:hover {
+    color: #b89b5e;
+    transform: translateY(-6px);
+}
+
+.live-video img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0,0,0,.10);
+}
+
+.live-video span {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .live-videos {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .live-video {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
