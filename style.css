@@ -1203,12 +1203,12 @@ footer a:hover {
 
 .menu-toggle {
     display: none;
-    background: none;
-    border: none;
+    background: transparent !important;
+    border: none !important;
     outline: none;
-    box-shadow: none;
+    box-shadow: none !important;
     font-size: 2rem;
-    color: #17365d;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -1336,5 +1336,36 @@ footer a:hover {
 @media (max-width: 768px) {
     .hero {
         padding-top: 20px !important;
+    }
+}
+/* Menu trasparente e hamburger bianco su smartphone */
+@media (max-width: 768px) {
+    .navigation {
+        position: fixed !important;
+        top: 0 !important;
+        background: transparent !important;
+        backdrop-filter: none !important;
+        box-shadow: none !important;
+        transition: transform 0.3s ease;
+    }
+
+    .menu-toggle {
+        color: #ffffff !important;
+        background: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    .navigation ul.active {
+        background: rgba(17, 17, 17, 0.95);
+        width: 100%;
+    }
+
+    .hero {
+        padding-top: 75px !important;
+    }
+
+    .navigation.nav-hidden {
+        transform: translateY(-100%);
     }
 }
