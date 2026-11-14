@@ -789,21 +789,58 @@ Facebook
 
 
 </body>
-    <script>
 
+<script>
 const menuToggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".navigation ul");
+const navigation = document.querySelector(".navigation");
 
-menuToggle.addEventListener("click", () => {
-    menu.classList.toggle("active");
-});
-const menuLinks = document.querySelectorAll(".navigation ul a");
+if (menuToggle && menu && navigation) {
 
-menuLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        menu.classList.remove("active");
+    let lastScrollY = window.scrollY;
+
+    // Apertura e chiusura del menu
+    menuToggle.addEventListener("click", () => {
+        menu.classList.toggle("active");
+        menuToggle.classList.toggle("is-open");
+
+        menuToggle.setAttribute(
+            "aria-expanded",
+            menu.classList.contains("active")
+        );
     });
-});
+
+    // Chiusura quando si seleziona una voce
+    menu.querySelectorAll("a").forEach(link => {
+        link.addEventListener("click", () => {
+            menu.classList.remove("active");
+            menuToggle.classList.remove("is-open");
+            menuToggle.setAttribute("aria-expanded", "false");
+        });
+    });
+
+    // Nasconde il menu scendendo e lo mostra risalendo
+    window.addEventListener("scroll", () => {
+
+        if (window.innerWidth > 768) return;
+
+        const currentScrollY = window.scrollY;
+        const difference = currentScrollY - lastScrollY;
+
+        if (currentScrollY < 50) {
+            navigation.classList.remove("nav-hidden");
+        } 
+        else if (difference > 8 && !menu.classList.contains("active")) {
+            navigation.classList.add("nav-hidden");
+        } 
+        else if (difference < -8) {
+            navigation.classList.remove("nav-hidden");
+        }
+
+        lastScrollY = currentScrollY;
+    }, { passive: true });
+}
 </script>
+
 
 </html>
