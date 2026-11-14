@@ -1323,3 +1323,13 @@ footer a:hover {
         top: auto !important;
     }
 }
+@media (max-width: 768px) {
+    .navigation {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    .menu-toggle {
+        margin-top: 5px !important;
+    }
+}
