@@ -1309,22 +1309,12 @@ footer a:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Regolazione sfondo Il suono Spectrum su smartphone */
+/* Regolazione foto Spectrum su smartphone */
 @media screen and (max-width: 600px) {
-    .spectrum-sound-panel {
-        background-position: center 70% !important;
-        background-size: auto 100% !important;
-        background-repeat: no-repeat !important;
-    }
-}
-@media screen and (max-width: 600px) {
-    .spectrum-sound-panel {
-        background-position: center 65% !important;
-    }
-}
-@media screen and (max-width: 768px) {
     .spectrum-sound-panel {
         background-position: center center, center 65% !important;
+        background-size: auto, cover !important;
+        background-repeat: repeat, no-repeat !important;
     }
 }
 @media (max-width: 768px) {
