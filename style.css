@@ -1482,3 +1482,28 @@ footer a:hover {
 .menu-toggle.is-open {
     transform: rotate(90deg);
 }
+/* Sfondo bianco del menu a tendina su smartphone */
+@media (max-width: 768px) {
+
+    .navigation ul {
+        background: #ffffff !important;
+        box-shadow: 0 8px 18px rgba(0,0,0,0.12);
+        width: 100%;
+        box-sizing: border-box;
+        z-index: 10001;
+    }
+
+    .navigation ul.active {
+        background: #ffffff !important;
+        border-top: 1px solid #eeeeee;
+    }
+
+    .navigation ul li a {
+        color: #17365d !important;
+        font-weight: 600;
+    }
+
+    .navigation ul li a:hover {
+        color: #b18b43 !important;
+    }
+}
