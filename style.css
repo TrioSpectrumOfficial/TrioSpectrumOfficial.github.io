@@ -1369,3 +1369,8 @@ footer a:hover {
         transform: translateY(-100%);
     }
 }
+@media (min-width: 769px) {
+    .partner-logo img {
+        width: 190px !important;
+    }
+}
