@@ -1475,3 +1475,10 @@ footer a:hover {
         padding-top: 80px !important;
     }
 }
+.menu-toggle {
+    transition: transform 0.25s ease;
+}
+
+.menu-toggle.is-open {
+    transform: rotate(90deg);
+}
