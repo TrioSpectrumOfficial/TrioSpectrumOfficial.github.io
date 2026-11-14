@@ -1309,13 +1309,18 @@ footer a:hover {
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* Foto Spectrum: regolazione smartphone */
+/* Foto Spectrum su smartphone */
 @media (max-width: 600px) {
+
     .spectrum-sound-panel {
-        background-position: center center, center 50% !important;
-        background-size: auto, cover !important;
-        background-repeat: repeat, no-repeat !important;
+        background-position: center, center bottom !important;
+        background-size: auto, 100% auto !important;
+        background-repeat: no-repeat, no-repeat !important;
+        background-color: #080808 !important;
+
+        padding: 35px 25px 380px !important;
     }
+
 }
 @media (max-width: 768px) {
     .navigation {
