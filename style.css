@@ -1313,12 +1313,12 @@ footer a:hover {
 @media (max-width: 600px) {
 
     .spectrum-sound-panel {
-        background-position: center, center 85% !important;
+        background-position: center, center bottom !important;
         background-size: auto, 100% auto !important;
         background-repeat: no-repeat, no-repeat !important;
         background-color: #080808 !important;
 
-        padding: 35px 25px 380px !important;
+        padding: 35px 25px 300px !important;
     }
 
 }
