@@ -1322,3 +1322,8 @@ footer a:hover {
         background-position: center 65% !important;
     }
 }
+@media screen and (max-width: 768px) {
+    .spectrum-sound-panel {
+        background-position: center center, center 65% !important;
+    }
+}
