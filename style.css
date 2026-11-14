@@ -1374,3 +1374,23 @@ footer a:hover {
         width: 190px !important;
     }
 }
+/* Ripristino menu originale su smartphone */
+@media (max-width: 768px) {
+    .navigation {
+        position: static !important;
+        top: auto !important;
+        background: rgba(255,255,255,.96) !important;
+        backdrop-filter: blur(10px) !important;
+        box-shadow: 0 5px 20px rgba(0,0,0,.08) !important;
+        transform: none !important;
+    }
+
+    .menu-toggle {
+        color: #17365d !important;
+        background: transparent !important;
+    }
+
+    .navigation ul.active {
+        background: transparent !important;
+    }
+}
