@@ -1327,3 +1327,9 @@ footer a:hover {
         background-position: center center, center 65% !important;
     }
 }
+@media (max-width: 768px) {
+    .navigation {
+        position: static !important;
+        top: auto !important;
+    }
+}
