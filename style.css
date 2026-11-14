@@ -1321,13 +1321,13 @@ footer a:hover {
 /* Regolazione sfondo Il suono Spectrum su smartphone */
 @media screen and (max-width: 600px) {
     .spectrum-sound-panel {
-        background-position: center 85% !important;
+        background-position: center 70% !important;
         background-size: auto 100% !important;
         background-repeat: no-repeat !important;
     }
 }
 @media screen and (max-width: 600px) {
     .spectrum-sound-panel {
-        background-position: center 85% !important;
+        background-position: center 70% !important;
     }
 }
