@@ -1649,3 +1649,24 @@ footer a:hover {
         padding-top: 80px !important;
     }
 }
+/* LINGUE IN FONDO AL MENU SMARTPHONE */
+@media (max-width: 768px) {
+
+    .navigation ul .language-switch {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 12px !important;
+        width: 100% !important;
+        margin-top: 10px !important;
+        visibility: visible !important;
+    }
+
+    .navigation ul .language-switch a {
+        display: inline-block !important;
+        color: #17365d !important;
+        font-size: 1rem !important;
+        font-weight: 700 !important;
+    }
+}
