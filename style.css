@@ -1704,3 +1704,23 @@ footer a:hover {
         opacity: 1 !important;
     }
 }
+@media (max-width: 768px) {
+
+    .navigation ul {
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+        gap: 20px !important;
+    }
+
+    .navigation ul li.language-switch {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: flex-start !important;
+        align-items: center !important;
+        margin-top: 0 !important;
+        padding: 0 !important;
+        height: auto !important;
+        width: 100% !important;
+    }
+
+}
