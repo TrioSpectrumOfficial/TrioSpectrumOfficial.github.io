@@ -1664,3 +1664,19 @@ footer a:hover {
         flex-shrink: 0 !important;
     }
 }
+@media (max-width: 768px) {
+    .navigation ul li.language-switch {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 4px !important;
+        width: auto !important;
+    }
+
+    .navigation ul li.language-switch a {
+        display: inline !important;
+        width: auto !important;
+        padding: 5px 0 !important;
+    }
+}
