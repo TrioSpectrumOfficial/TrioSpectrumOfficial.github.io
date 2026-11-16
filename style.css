@@ -1650,4 +1650,17 @@ footer a:hover {
     }
 }
 
+/* MENU SMARTPHONE: UNA SOLA COLONNA */
+@media (max-width: 768px) {
+    .navigation ul {
+        flex-wrap: nowrap !important;
+        align-content: flex-start !important;
+        align-items: flex-start !important;
+        justify-content: flex-start !important;
+    }
+
+    .navigation ul li.language-switch {
+        margin-top: 0 !important;
+        flex-shrink: 0 !important;
+    }
 }
